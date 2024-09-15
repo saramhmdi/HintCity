@@ -1,0 +1,22 @@
+.cityList {
+  list-style-type: none;
+  padding: 50px;
+  margin: 10;
+}
+
+.cityListItem {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.cityListItem:hover {
+  background-color: #e0e0e0;
+}
+
+.noMatch {
+  padding: 8px 12px;
+  color: #999;
+  text-align: center;
+}
